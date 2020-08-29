@@ -1,10 +1,11 @@
 import React from "react";
+import Link from "next/Link";
 
 export const Card = () => {
     return (
         <div className="row">
-            <div className="col-12">
-                <div className="card m-5 mr-0">
+            <div className="col-md-8 m-auto">
+                <div className="card m-auto col-md-4">
                     <img
                         className="card-img-top ml-auto mr-auto imgprof"
                         src="./assets/img/ig-profile.jpg"
@@ -21,73 +22,22 @@ export const Card = () => {
                         </p>
                     </div>
                     <div className="card-body ">
-                        <a
-                            href="#"
-                            className="btn btn-primary float-right w-100"
-                        >
-                            Post
-                        </a>
-                    </div>
-                </div>
-                <div className="card m-5">
-                    <img
-                        className="card-img-top ml-auto mr-auto imgprof"
-                        src="./assets/img/ig-profile.jpg"
-                        alt="Card image cap"
-                    />
-                    <div className="card-body">
-                        <h5 className="card-title">@hotmodelsgallery_</h5>
-                        <p className="card-text">
-                            <img
-                                className="soivhdeuhrf"
-                                src="./assets/icons/person.svg"
-                            />
-                            <b> (204.165)</b>
-                        </p>
-                    </div>
-                    <div className="card-body ">
-                        <a
-                            href="#"
-                            className="btn btn-primary float-right w-100"
-                        >
-                            Post
-                        </a>
-                    </div>
-                </div>
-                <div className="card m-5">
-                    <img
-                        className="card-img-top ml-auto mr-auto imgprof"
-                        src="./assets/img/ig-profile.jpg"
-                        alt="Card image cap"
-                    />
-                    <div className="card-body">
-                        <h5 className="card-title">@hotmodelsgallery_</h5>
-                        <p className="card-text">
-                            <img
-                                className="soivhdeuhrf"
-                                src="./assets/icons/person.svg"
-                            />
-                            <b> (204.165)</b>
-                        </p>
-                    </div>
-                    <div className="card-body ">
-                        <a
-                            href="#"
-                            className="btn btn-primary float-right w-100"
-                        >
-                            Post
-                        </a>
+                        <Link href="/post">
+                            <a className="btn btn-primary float-right w-100">
+                                Post
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </div>
 
             <style jsx>{`
-                .col-12 {
+                .col-md-8 {
                     display: flex;
                     text-align: left;
                 }
                 .card {
-                    max-width: 15rem;
+                    max-width: 17rem;
                 }
                 .imgprof {
                     margin-top: 20px;
