@@ -8,13 +8,14 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
-    "firebase": "^7.15.5",
+    "firebase": "^7.19.1",
     "firebase-admin": "^8.12.1",
     "js-cookie": "2.2.1",
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-firebaseui": "4.1.0",
+    "react-paypal-button-v2": "^2.6.2",
     "sass": "^1.26.10",
     "swr": "0.2.3"
   }

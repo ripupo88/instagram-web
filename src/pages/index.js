@@ -9,7 +9,7 @@ export default function Home() {
         <div>
             <Sec1 />
             <Sec2 />
-            <h1 className="text-center mt-4 mb-4">Our Pages</h1>
+            <h1 className="text-center mt-4 mb-4">Our Page</h1>
             <div className="mt-5 mb-5">
                 <Card />
             </div>

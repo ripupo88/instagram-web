@@ -17,8 +17,8 @@ export const Card = () => {
                             <img
                                 className="soivhdeuhrf"
                                 src="./assets/icons/person.svg"
-                            />
-                            <b> (204.165)</b>
+                            />{" "}
+                            204.165
                         </p>
                     </div>
                     <div className="card-body ">
@@ -32,6 +32,10 @@ export const Card = () => {
             </div>
 
             <style jsx>{`
+                p {
+                    font-size: 18px;
+                    color: #1d1d1de1;
+                }
                 .col-md-8 {
                     display: flex;
                     text-align: left;
