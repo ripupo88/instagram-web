@@ -3,12 +3,14 @@ import styles from "../styles/Home.module.scss";
 import { Card } from "../Components/card/Card";
 import { Sec1 } from "../Components/index/Sec1";
 import { Sec2 } from "../Components/index/Sec2";
+import { Sec3 } from "../Components/index/Sec3";
 
 export default function Home() {
     return (
         <div>
             <Sec1 />
             <Sec2 />
+            <Sec3 />
             <h1 className="text-center mt-4 mb-4">Our Page</h1>
             <div className="mt-5 mb-5">
                 <Card />

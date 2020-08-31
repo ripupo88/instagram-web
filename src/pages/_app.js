@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
             <Navbar />
             <Component {...pageProps} />
             <footer>
-                <img src="./hotty.svg" alt="logo" alt="logo RPR" />
+                <img src="./assets/img/azlogo.svg" alt="logo" alt="logo RPR" />
                 <p className="mb-0">
                     Copyright &copy; 2020. All Rights Reserved.
                 </p>
@@ -29,6 +29,7 @@ function MyApp({ Component, pageProps }) {
                     }
 
                     footer img {
+                        padding: 3px;
                         margin-left: 10px;
                         position: absolute;
                         top: 50%;

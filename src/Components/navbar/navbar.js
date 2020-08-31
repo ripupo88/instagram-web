@@ -6,7 +6,7 @@ export const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light  shadow-sm ">
             <a href="#" className="navbar-brand">
                 <img
-                    src="./hotty.svg"
+                    src="./assets/img/azlogo.svg"
                     width="35"
                     alt="logo rpr"
                     className="d-inline-block align-middle mr-2"
