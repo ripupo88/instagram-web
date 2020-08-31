@@ -1,12 +1,14 @@
-import { PaypalBasic } from "../paypal/PaypalBasic";
-
 export const Sec2 = () => {
     return (
         <section className="pricing-table">
             <div className="container">
                 <div className="block-heading">
                     <h2>Pricing Table</h2>
-                    <p>The best promo you could buy for your IG account</p>
+                    <p>
+                        The best promo you could buy for your IG account
+                        <br />
+                        Only PayPal acepted
+                    </p>
                 </div>
                 <div className="row justify-content-md-center">
                     <div className="col-md-5 col-lg-4">
@@ -33,10 +35,15 @@ export const Sec2 = () => {
                             </div>
                             <div className="price">
                                 <h4>
-                                    $14<small>.99</small>
+                                    $19<small>.99</small>
                                 </h4>
                             </div>
-                            <PaypalBasic />
+                            <button
+                                className="btn btn-block btn-outline-primary"
+                                type="submit"
+                            >
+                                BUY NOW
+                            </button>
                         </div>
                     </div>
                     <div className="col-md-5 col-lg-4">
@@ -47,7 +54,7 @@ export const Sec2 = () => {
                             </div>
                             <p>
                                 With this plan you will get the most followers
-                                posible
+                                as possible
                             </p>
                             <div className="features">
                                 <h4>
@@ -67,7 +74,7 @@ export const Sec2 = () => {
                             </div>
                             <div className="price">
                                 <h4>
-                                    $39<small>.99</small>
+                                    $49<small>.99</small>
                                 </h4>
                             </div>
                             <button
@@ -104,7 +111,7 @@ export const Sec2 = () => {
                             </div>
                             <div className="price">
                                 <h4>
-                                    $89<small>.99</small>
+                                    $99<small>.99</small>
                                 </h4>
                             </div>
                             <button
